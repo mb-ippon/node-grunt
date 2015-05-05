@@ -43,7 +43,7 @@ module.exports = function(grunt) {
 					expand: true,
 					src:  '*.js',
 					dest: '<%= pkg.variable.build_js %>',
-					cwd:  '<%= pkg.variable.build_concat_css %>',
+					cwd:  '<%= pkg.variable.build_concat_js %>',
 					ext: '.min.js',
 					extDot: 'first'
 				}]
